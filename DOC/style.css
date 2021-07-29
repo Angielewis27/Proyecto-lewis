@@ -1,0 +1,96 @@
+.Ho {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    margin: 25px;
+    font-size: 40px;
+}
+
+@font-face {
+    font-family: 'fuenteP';
+    src: url(Fuente/AdeliaShawn.otf);
+}
+#change {
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5px;
+    
+    size: 100px;
+}
+#change:hover{
+     background-color: rgb(250, 9, 141);
+     box-shadow: 5px 3px 3px rgb(31, 5, 73);
+}
+
+.w {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    color: rgb(71, 214, 240);
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.w:hover {
+    color: rgb(11, 247, 50);
+    font-family: 'fuenteP';
+    
+    font-size: 25px;
+}
+
+#panel1{
+    float:left;
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: crimson;
+
+}
+
+#panel2{
+    float:right;
+    width: 550px;
+    height: 300px;
+    padding: 20px;
+    display: block;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: crimson;
+
+}
+
+img{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-right: 20px;
+    
+}
+
+p{
+text-align: justify;
+}
+
+table{
+    margin-bottom: 50px;
+}
+
+
+tr{
+  color: black; 
+  border-color:"black";
+}
+
+video{
+   width: 400px;
+   height: 300;
+ 
+}
+  
